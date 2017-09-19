@@ -20,6 +20,7 @@ export default class App extends Component {
 
 //The default user is 'lizparody' and I map the users to use the function handleUsers
   componentDidMount() {
+    document.body.style.margin = "0px";
     let users = ['lizparody']
     users.map(this.handleUsers)
   }
@@ -55,4 +56,3 @@ export default class App extends Component {
     );
   }
 }
-

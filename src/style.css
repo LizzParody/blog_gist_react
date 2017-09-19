@@ -29,8 +29,6 @@ li {
 
 img {
   position: relative;
-  top: -10px;
-  left: -10px;
 }
 
 input {
@@ -47,4 +45,3 @@ button {
    border-radius: 3px;
    font-size: 15px;
 }
-
